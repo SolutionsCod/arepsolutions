@@ -1,0 +1,280 @@
+/*.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 5em;
+    margin: -10px;
+}
+body{
+    display: blo;
+}
+.letter {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.visible {
+    opacity: 1;
+}
+.simb{
+ 
+  text-shadow: 0px 0px 5px #bd1672;
+    color: rgb(156, 17, 75);
+}
+.sp{
+    font-family: Consolas, monaco, monospace;
+    color: rgb(233, 192, 12);
+    text-shadow: 0px 0px 5px #f4f7eb;
+}
+p{
+    font-family: Consolas, monaco, monospace;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 5px #16bd7d;
+}
+h4{
+        
+    font-size: 30px;
+    color: #f4f7eb;
+    padding: 10px;
+    justify-content: center;
+    font-family: Consolas, monaco, monospace;
+}
+.resum{ 
+    background: #313233cb;
+    margin-left: 22em;
+    width: 30em;
+    height: 10em;
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+    border-radius: 10px;
+    text-align: center;
+}
+.resum.visible {
+    opacity: 1;
+}
+*/
+body{
+    padding: 0%;
+    margin: auto;
+    background-color: #161616;
+    background-size: cover;
+    display: block;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 110em;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25em;
+ 
+    color: rgb(230, 233, 233);
+    font-family: monospace;
+}
+.letter {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.visible {
+    opacity: 1;
+}
+.icn{
+   font-size: 1.2em;
+  text-shadow: 0px 0px 7px #bd1672;
+  color: rgb(156, 17, 75);
+}
+.letra{
+    color: rgb(230, 230, 44);
+    text-shadow: 0px 0px 7px #bdb216;
+}
+
+
+.present{
+   position: relative;
+    margin: auto;
+    margin-top: -10em;
+    border-radius: 15px;
+    background: #202020a9;
+    width: 130em;
+    height: 80em;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 5px 0 rgb(36, 35, 36), 0 6px 20px 0 rgb(76, 76, 77);
+
+}
+.option{
+    text-align: center;
+    font-size: 5em;
+   margin-top: 3.5em;
+}
+.option a{
+    
+    color: rgb(179, 22, 87);
+    font-family: monospace;
+    margin: 15px;
+    background: #1f1e1e;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 1px 5px 0 rgb(36, 35, 36), 0 6px 20px 0 rgb(76, 76, 77);
+
+}
+
+h4{   
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10em;
+    color: #bdb216;
+    padding: 1.1em;
+    align-items: center;
+    font-family: Consolas, monaco, monospace;
+    animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: unset;
+  margin-top: -15px;
+}
+
+header {
+    padding: 10px 0;
+    height: 10em;
+    margin-left: 36%;
+    position: fixed;
+}
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+header ul li {
+    position: relative;
+}
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 5em;
+    font-family: monospace;
+    margin-right: 2em;
+    transition: all .2s ease-in-out;
+}
+ul li a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 10px;
+    border-radius: 50px;
+    background: linear-gradient(to right, rgb(179, 22, 87), rgb(179, 22, 87),rgb(179, 22, 87));
+    transition: all 1.2s ease-in-out;
+    transform: scale(1.3);
+}
+header ul li a:hover {
+    transform: scale(1.1); /* Aplica la transformación de escala al pasar el ratón */
+}
+ul li a:hover::after {
+    width: 100%;
+}
+
+header ul ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    display: none;
+    flex-direction: column;
+}
+header ul ul li {
+    width: 100%;
+}
+header ul li:hover > ul {
+    display: flex;
+}
+.subfooter{
+    margin-top: 50em;
+    height: 10em;
+    background-color: #49494900;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+   
+}
+ 
+/*****blog*/
+/*****blog*/
+/*****blog*/
+/*****blog*/
+.circulo{
+    background-color: #6b0b3b;
+    height: 25%;
+    width: 16%;
+    border-radius: 57%;
+    box-shadow: 0 1px 15px 0 rgba(182, 173, 178, 0), 50px 26px 20px 0 rgb(73, 12, 38);
+    margin-top: -18%;
+    margin-left: 80%;
+    position: absolute;
+   
+}
+.present .circulo2{
+    background-color: #646262;
+    height: 20%;
+    width: 13%;
+    border-radius: 57%;
+    box-shadow: 0 1px 15px 0 rgba(104, 99, 99, 0), -30px -50px 20px 0 rgb(73, 70, 71);
+    left: 2%;
+    z-index: -1;
+    margin-top: 3%;
+    position: absolute;
+    opacity: 0; /* Inicialmente oculto */
+    visibility: hidden; /* Oculto al inicio */
+    transition: opacity 2.1s ease, visibility 2.1s ease; /* Transición suave para la opacidad y visibilidad */
+}
+.present .circulo {
+    opacity: 0; /* Inicialmente oculto */
+    visibility: hidden; /* Oculto al inicio */
+    transition: opacity 1.1s ease, visibility 1.1s ease; /* Transición suave para la opacidad y visibilidad */
+    
+}
+
+
+.present:hover .circulo {
+    opacity: 1; /* Mostrar el círculo */
+    visibility: visible; /* Hacerlo visible cuando se pasa el ratón */
+}
+
+.present:hover .circulo2 {
+    z-index: -1; /* Coloca .circulo2 detrás del texto */
+    opacity: 1; /* Mostrar el círculo */
+    visibility: visible; /* Hacerlo visible cuando se pasa el ratón */
+}
+.inicio{
+    display: flex;
+}
+.inicio .ima{
+    margin: auto;
+   width: 90em;
+    height: 90em;
+   margin-top: -4.9%;  
+   background: #333;
+}
+.formulario{
+    background: #6b0b3b;
+    width: 100em;
+    height: 100em;
+    display: none;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.redes i{
+    font-size: 7em;
+    margin: 20px;
+    color: #bd1672;
+}
